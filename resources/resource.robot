@@ -8,7 +8,7 @@ Library           Selenium2Library
 
 *** Variables ***
 ${PAGE}         https://www.google.es/
-${BROWSER}        Firefox
+${BROWSER}        Chrome
 ${DELAY}          0
 
 *** Keywords ***
@@ -21,3 +21,7 @@ Open Browser To Base Page
 Base Page Should Be Open
     Location Should Be    ${PAGE}
     Title Should Be    Google
+
+Search my name on google
+    input text  lst-ib  iván calavia gonzález
+    click element  _fZl
