@@ -1,2 +1,7 @@
 geckodriver.log
 report/
+.idea
+log.html
+output.xml
+report.html
+
